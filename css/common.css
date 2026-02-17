@@ -13,14 +13,18 @@ body {
   line-height: 1.5;
 }
 
-/* #region task1 */
-
-ul, li {
+ul,
+li {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
+/* #region task1 */
 .h2-task-1 {
   margin: 0;
   padding-bottom: 16px;
@@ -85,3 +89,38 @@ ul, li {
   height: 300px;
 }
 /* #endregion task2 */
+
+/* #region task3 */
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
+}
+
+#name-output, .task-3-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #c479be;
+  margin-top: 16px;
+}
+
+
+#name-input::placeholder {
+    color: #c9a2c4;
+}
+
+#name-input:focus {
+  border: 2px solid #ff04c0;
+}
+/* #endregion task3 */
+
